@@ -1,0 +1,28 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* configuracion inicial pagina */
+
+body {
+    background-color: gray;
+    display: grid;
+    padding: 5px;
+    grid-template-areas:
+
+        "header header"
+        "nav main"
+        "footer footer"
+}
+
+
+header,
+nav,
+main,
+footer {
+    border: solid rgb(42, 42, 42);
+
+}
